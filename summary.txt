@@ -1,0 +1,11 @@
+This project compares the cost of hosting a small web application on AWS and Microsoft Azure using pricing calculators. The application includes a small virtual machine with 1 vCPU and 2GB RAM, 50GB of storage, and 100GB of monthly outbound data transfer.
+
+The AWS estimate shows a total monthly cost of $8.74, which includes EC2 compute charges, S3 storage costs, and free data transfer within the first 100GB. AWS benefits from lower compute pricing for Linux-based workloads.
+
+The Azure estimate shows a total monthly cost of $10.50. This includes a B1s virtual machine, Blob Storage, and free outbound data transfer within the first 100GB. Azure storage is slightly cheaper, but compute costs are higher compared to AWS.
+
+Overall, AWS is more cost-effective for this scenario due to lower compute pricing. However, Azure may be more attractive for Microsoft-based enterprise environments due to integration benefits.
+
+Both platforms offer discount mechanisms such as Reserved Instances and Savings Plans, which can significantly reduce long-term costs.
+
+This comparison demonstrates the importance of selecting appropriate instance types and optimizing cloud resources for cost efficiency.
